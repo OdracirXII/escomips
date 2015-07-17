@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Tue May 27 15:54:36 2014
+# Process ID: 5684
+# Log file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/pa.fromHdl.tcl
+exit
+stop_gui

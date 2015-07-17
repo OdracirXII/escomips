@@ -1,0 +1,86 @@
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -uc pines.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+xst -intstyle ise -ifn "C:/Escomips/PrincipalEscomips.xst" -ofn "C:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+xst -intstyle ise -ifn "J:/Escomips/PrincipalEscomips.xst" -ofn "J:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 
+xst -intstyle ise -ifn "J:/Escomips/PrincipalEscomips.xst" -ofn "J:/Escomips/PrincipalEscomips.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PrincipalEscomips.ucf -p xc6slx16-csg324-3 PrincipalEscomips.ngc PrincipalEscomips.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PrincipalEscomips_map.ncd PrincipalEscomips.ngd PrincipalEscomips.pcf 
+par -w -intstyle ise -ol high -mt off PrincipalEscomips_map.ncd PrincipalEscomips.ncd PrincipalEscomips.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml PrincipalEscomips.twx PrincipalEscomips.ncd -o PrincipalEscomips.twr PrincipalEscomips.pcf -ucf PrincipalEscomips.ucf 
+bitgen -intstyle ise -f PrincipalEscomips.ut PrincipalEscomips.ncd 

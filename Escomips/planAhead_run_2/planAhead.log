@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Tue May 27 15:54:12 2014
+# Process ID: 6296
+# Log file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_2/planAhead.log
+# Journal file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [ArchReader-0] Loading parts and site information from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\arch.xml
+Parsing RTL primitives file [C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+ERROR: [PlanAhead-106] *** Exception: java.lang.RuntimeException: C:\Users\Pwned\AppData\Roaming\Xilinx\PlanAhead\13.1\layouts\application\default.layout (La operación solicitada no se puede realizar en un archivo con una sección asignada a usuario abierta) (See C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\planAhead_pid6296.debug)ERROR: [Common-39] 'start_gui' failed due to earlier errors.
+source C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/pa.fromHdl.tcl
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

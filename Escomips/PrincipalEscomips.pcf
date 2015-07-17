@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Mar 06 17:32:06 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CLK" LOCATE = SITE "V10" LEVEL 1;
+COMP "CLR" LOCATE = SITE "D9" LEVEL 1;
+COMP "Rd1<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "Rd1<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Rd1<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "Rd1<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "Rd1<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "Rd1<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "Rd1<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "CLK_outww" LOCATE = SITE "T11" LEVEL 1;
+SCHEMATIC END;
+

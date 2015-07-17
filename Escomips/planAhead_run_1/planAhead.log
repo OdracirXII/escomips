@@ -1,0 +1,169 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Tue May 27 16:05:30 2014
+# Process ID: 4960
+# Log file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [ArchReader-0] Loading parts and site information from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\arch.xml
+Parsing RTL primitives file [C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/pa.fromHdl.tcl
+# create_project -name Escomips -dir "C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [C:\Xilinx\13.2\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top PrincipalEscomips $srcset
+# set_param project.paUcfFile  "PrincipalEscomips.ucf"
+# set hdlfile [add_files [list {RegEdo.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PaqueteControl.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MemoriraOPCODE.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MemoriaFuncion.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {FSM_control.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {DetectorNivel.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {deco_instru.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {condicion.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PrincipalControl.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Pila.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PaqueteEscomips.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {MemoriaDatos.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Memoria.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Divisor_Escomips.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ArchivoRegistro.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PrincipalEscomips.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# add_files "PrincipalEscomips.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+INFO: [PlanAhead-58] Using Verific elaboration
+Parsing VHDL file "C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing package <attributes>.
+Parsing VHDL file "C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing package <attributes>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\RegEdo.vhd" into library work
+Parsing entity <REG_EDO>.
+Parsing architecture <Behavioral> of entity <reg_edo>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PaqueteControl.vhd" into library work
+Parsing package <PaqueteControl>.
+Parsing package body <PaqueteControl>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\MemoriraOPCODE.vhd" into library work
+Parsing entity <MemoriraOPCODE>.
+Parsing architecture <Behavioral> of entity <memoriraopcode>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\MemoriaFuncion.vhd" into library work
+Parsing entity <MemoriaFuncion>.
+Parsing architecture <Behavioral> of entity <memoriafuncion>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\FSM_control.vhd" into library work
+Parsing entity <FSM_control>.
+Parsing architecture <Behavioral> of entity <fsm_control>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\DetectorNivel.vhd" into library work
+Parsing entity <DetectorNivel>.
+Parsing architecture <Behavioral> of entity <detectornivel>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\deco_instru.vhd" into library work
+Parsing entity <DECO_INST>.
+Parsing architecture <Behavioral> of entity <deco_inst>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\condicion.vhd" into library work
+Parsing entity <CONDICION>.
+Parsing architecture <Behavioral> of entity <condicion>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PrincipalControl.vhd" into library work
+Parsing entity <PrincipalControl>.
+Parsing architecture <Behavioral> of entity <principalcontrol>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\Pila.vhd" into library work
+Parsing entity <PilaProgram>.
+Parsing architecture <A_PilaProgram> of entity <pilaprogram>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PaqueteEscomips.vhd" into library work
+Parsing package <PaqueteEscomips>.
+Declaration of multiple ports on the same line is valid but can affect code readability [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PaqueteEscomips.vhd:56]
+Declaration of multiple ports on the same line is valid but can affect code readability [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PaqueteEscomips.vhd:68]
+Declaration of multiple ports on the same line is valid but can affect code readability [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PaqueteEscomips.vhd:76]
+Parsing package body <PaqueteEscomips>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\MemoriaDatos.vhd" into library work
+Parsing entity <MemoriaDatos>.
+Declaration of multiple ports on the same line is valid but can affect code readability [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\MemoriaDatos.vhd:10]
+Parsing architecture <Behavioral> of entity <memoriadatos>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\Memoria.vhd" into library work
+Parsing entity <MemoriaPrograma>.
+Parsing architecture <Behavioral> of entity <memoriaprograma>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\Divisor_Escomips.vhd" into library work
+Parsing entity <Divisor_Escomips>.
+Declaration of multiple ports on the same line is valid but can affect code readability [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\Divisor_Escomips.vhd:7]
+Parsing architecture <Behavioral> of entity <divisor_escomips>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\ArchivoRegistro.vhd" into library work
+Parsing entity <ArchivoRegistro>.
+Parsing architecture <Behavioral> of entity <archivoregistro>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\ALU.vhd" into library work
+Parsing entity <ALU>.
+Declaration of multiple ports on the same line is valid but can affect code readability [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\ALU.vhd:8]
+Parsing architecture <operaciones> of entity <alu>.
+Parsing VHDL file "C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PrincipalEscomips.vhd" into library work
+Parsing entity <PrincipalEscomips>.
+Parsing architecture <Behavioral> of entity <principalescomips>.
+WARNING: [HDL-746] Range is empty (null range) [/build/xfndry/O.61xb/env/TOS/Verific/verific/vhdl_packages/numeric_std.vhd:878]
+WARNING: [HDL-746] Range is empty (null range) [/build/xfndry/O.61xb/env/TOS/Verific/verific/vhdl_packages/numeric_std.vhd:879]
+WARNING: [HDL-746] Range is empty (null range) [/build/xfndry/O.61xb/env/TOS/Verific/verific/vhdl_packages/numeric_bit.vhd:838]
+WARNING: [HDL-746] Range is empty (null range) [/build/xfndry/O.61xb/env/TOS/Verific/verific/vhdl_packages/numeric_bit.vhd:839]
+Removing all analyzed parse trees
+INFO: [ArchReader-7] Loading clock regions from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+INFO: [ArchReader-8] Loading clock buffers from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+INFO: [ArchReader-13] Loading package pin functions from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts\xilinx\spartan6/PinFunctions.xml...
+INFO: [ArchReader-3] Loading package from C:\Xilinx\13.2\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+INFO: [ArchReader-4] Loading io standards from C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan6/IOStandards.xml
+INFO: [ArchReader-12] Loading device configuration modes from 
+INFO: [GDRC-0] Loading list of drcs for the architecture : C:\Xilinx\13.2\ISE_DS\PlanAhead\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PrincipalEscomips.ucf]
+Finished Parsing UCF File [C:\Users\Public\Documents\Project_Nexys\UnidadDeControl\Escomips\PrincipalEscomips.ucf]
+INFO: [Project-5] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_rtl_design: Time (s): 17.578w.  Memory (MB): 943.410p 417.742g
+startgroup
+startgroup
+set_property loc PAD156 [get_ports CLK]
+set_property loc PAD156 [get_ports CLK]
+endgroup
+endgroup
+save_design -force
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

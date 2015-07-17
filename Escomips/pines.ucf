@@ -1,0 +1,9 @@
+NET "rd2[0]" loc = u16;
+NET "rd2[1]" loc = v16;
+NET "rd2[2]" loc = u15;
+NET "rd2[3]" loc = v15;
+NET "rd2[4]" loc = m11;
+NET "rd2[5]" loc = n11;
+NET "rd2[6]" loc = r11;
+NET "clk" loc = v10;
+NET "clr" loc = c9;

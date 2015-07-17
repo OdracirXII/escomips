@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=J:\Escomips\PrincipalEscomips.ncd
+OUTFILE=J:\Escomips\PrincipalEscomips.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=J:\Escomips
+LICENSE=WebPack
+USER_INFO=210844018_0_0_757

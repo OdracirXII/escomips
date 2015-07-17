@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="16">
+	<FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+		<Filter Type="Srcs"/>
+		<File Path="$PPRDIR/../RegEdo.vhd">
+		</File>
+		<File Path="$PPRDIR/../PaqueteControl.vhd">
+		</File>
+		<File Path="$PPRDIR/../MemoriraOPCODE.vhd">
+		</File>
+		<File Path="$PPRDIR/../MemoriaFuncion.vhd">
+		</File>
+		<File Path="$PPRDIR/../FSM_control.vhd">
+		</File>
+		<File Path="$PPRDIR/../DetectorNivel.vhd">
+		</File>
+		<File Path="$PPRDIR/../deco_instru.vhd">
+		</File>
+		<File Path="$PPRDIR/../condicion.vhd">
+		</File>
+		<File Path="$PPRDIR/../PrincipalControl.vhd">
+		</File>
+		<File Path="$PPRDIR/../Pila.vhd">
+		</File>
+		<File Path="$PPRDIR/../PaqueteEscomips.vhd">
+		</File>
+		<File Path="$PPRDIR/../MemoriaDatos.vhd">
+		</File>
+		<File Path="$PPRDIR/../Memoria.vhd">
+		</File>
+		<File Path="$PPRDIR/../Divisor_Escomips.vhd">
+		</File>
+		<File Path="$PPRDIR/../ArchivoRegistro.vhd">
+		</File>
+		<File Path="$PPRDIR/../ALU.vhd">
+		</File>
+		<File Path="$PPRDIR/../PrincipalEscomips.vhd">
+		</File>
+		<File Path="$PDATADIR/sources_1/ports.xml">
+			<FileInfo SFType="PortsDb"/>
+		</File>
+		<File Path="$PDATADIR/sources_1/chipscope.xml">
+			<FileInfo SFType="ChipscopeDb"/>
+		</File>
+		<Config>
+			<Option Name="DesignMode" Val="RTL"/>
+			<Option Name="TopModule" Val="PrincipalEscomips"/>
+			<Option Name="ConstrsType" Val="UCF"/>
+			<Option Name="SrcSet" Val="sources_1"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

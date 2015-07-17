@@ -1,0 +1,26 @@
+Release 13.2 - ngc2edif O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design PrincipalEscomips.ngc ...
+WARNING:NetListWriters:298 - No output is written to PrincipalEscomips.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus MICROINSTRU<19 : 0> on block
+   PrincipalEscomips is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus BUS_MEMPROGRAMA<24 : 0> on block
+   PrincipalEscomips is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   ArchivoRegistro_P/Archivo[1][15]_Archivo[1][15]_mux_90_OUT<15 : 1> on block
+   PrincipalEscomips is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   ArchivoRegistro_P/Archivo[0][15]_Archivo[0][15]_mux_89_OUT<4 : 0> on block
+   PrincipalEscomips is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file PrincipalEscomips.edif ...
+ngc2edif: Total memory usage is 66792 kilobytes
+

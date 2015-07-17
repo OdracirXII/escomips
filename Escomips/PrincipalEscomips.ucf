@@ -1,0 +1,15 @@
+
+
+NET "CLR" LOC = D9;
+NET "rd1[0]" LOC = U16;
+NET "rd1[1]" LOC = V16;
+NET "rd1[2]" LOC = U15;
+NET "rd1[3]" LOC = V15;
+NET "rd1[4]" LOC = M11;
+NET "rd1[5]" LOC = N11;
+NET "rd1[6]" LOC = R11;
+NET "clk_outww" LOC = T11;
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = V10;

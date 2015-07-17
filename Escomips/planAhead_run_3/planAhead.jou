@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Tue May 27 15:54:13 2014
+# Process ID: 6468
+# Log file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_3/planAhead.log
+# Journal file: C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Public/Documents/Project_Nexys/UnidadDeControl/Escomips/pa.fromNetlist.tcl
+startgroup
+set_property loc PAD125 [get_ports {salida[0]}]
+endgroup
+startgroup
+set_property loc PAD126 [get_ports {salida[1]}]
+endgroup
+startgroup
+set_property loc PAD129 [get_ports {salida[2]}]
+endgroup
+startgroup
+set_property loc PAD130 [get_ports {salida[3]}]
+endgroup
+startgroup
+set_property loc PAD139 [get_ports {salida[4]}]
+endgroup
+startgroup
+set_property loc PAD140 [get_ports {salida[5]}]
+endgroup
+startgroup
+set_property loc PAD141 [get_ports {salida[6]}]
+endgroup
+startgroup
+set_property loc PAD141 [get_ports {salida[6]}]
+endgroup
+startgroup
+set_property loc PAD142 [get_ports {salida[7]}]
+endgroup
+startgroup
+set_property loc PAD29 [get_ports CLR]
+endgroup
+set_property loc "" [get_ports [list  CLK]]
+save_design
+exit
+stop_gui

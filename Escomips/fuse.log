@@ -1,0 +1,53 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Escomips/Simulacion_isim_beh.exe -prj C:/Escomips/Simulacion_beh.prj work.Simulacion 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Escomips/RegEdo.vhd" into library work
+Parsing VHDL file "C:/Escomips/PaqueteControl.vhd" into library work
+Parsing VHDL file "C:/Escomips/MemoriraOPCODE.vhd" into library work
+Parsing VHDL file "C:/Escomips/MemoriaFuncion.vhd" into library work
+Parsing VHDL file "C:/Escomips/FSM_control.vhd" into library work
+Parsing VHDL file "C:/Escomips/DetectorNivel.vhd" into library work
+Parsing VHDL file "C:/Escomips/deco_instru.vhd" into library work
+Parsing VHDL file "C:/Escomips/condicion.vhd" into library work
+Parsing VHDL file "C:/Escomips/PrincipalControl.vhd" into library work
+Parsing VHDL file "C:/Escomips/Pila.vhd" into library work
+Parsing VHDL file "C:/Escomips/PaqueteEscomips.vhd" into library work
+Parsing VHDL file "C:/Escomips/MemoriaDatos.vhd" into library work
+Parsing VHDL file "C:/Escomips/Memoria.vhd" into library work
+Parsing VHDL file "C:/Escomips/ArchivoRegistro.vhd" into library work
+Parsing VHDL file "C:/Escomips/ALU.vhd" into library work
+Parsing VHDL file "C:/Escomips/PrincipalEscomips.vhd" into library work
+Parsing VHDL file "C:/Escomips/Simulacion.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package paqueteescomips
+Compiling package paquetecontrol
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package numeric_bit
+Compiling architecture a_pilaprogram of entity PilaProgram [\PilaProgram(16)\]
+Compiling architecture behavioral of entity MemoriaPrograma [\MemoriaPrograma(25,16)\]
+Compiling architecture behavioral of entity ArchivoRegistro [archivoregistro_default]
+Compiling architecture operaciones of entity ALU [\ALU(16)\]
+Compiling architecture behavioral of entity MemoriaDatos [\MemoriaDatos(16)\]
+Compiling architecture behavioral of entity DECO_INST [deco_inst_default]
+Compiling architecture behavioral of entity DetectorNivel [detectornivel_default]
+Compiling architecture behavioral of entity MemoriaFuncion [\MemoriaFuncion(4,20)\]
+Compiling architecture behavioral of entity MemoriraOPCODE [\MemoriraOPCODE(20,5)\]
+Compiling architecture behavioral of entity CONDICION [condicion_default]
+Compiling architecture behavioral of entity FSM_control [fsm_control_default]
+Compiling architecture behavioral of entity REG_EDO [reg_edo_default]
+Compiling architecture behavioral of entity PrincipalControl [principalcontrol_default]
+Compiling architecture behavioral of entity PrincipalEscomips [principalescomips_default]
+Compiling architecture behavior of entity simulacion
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 37 VHDL Units
+Built simulation executable C:/Escomips/Simulacion_isim_beh.exe
+Fuse Memory Usage: 41836 KB
+Fuse CPU Usage: 1343 ms

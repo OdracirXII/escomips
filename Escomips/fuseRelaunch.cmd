@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Escomips/Simulacion_isim_beh.exe" -prj "C:/Escomips/Simulacion_beh.prj" "work.Simulacion" 

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Compat Version="1" Minor="4">
+	<CompatParts>
+	</CompatParts>
+	<ConfigModes>
+		<Mode Id="JTAG"/>
+	</ConfigModes>
+	<PortProps>
+		<Port Name="salida[15]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[14]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[13]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[12]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[11]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[10]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[9]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[8]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[7]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[6]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[5]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[4]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[3]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[2]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[1]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="salida[0]" OffChipTerm="FP_VTT_50"/>
+		<Port Name="CLR" OffChipTerm="NONE"/>
+		<Port Name="CLK" OffChipTerm="NONE"/>
+	</PortProps>
+</Compat>
+
